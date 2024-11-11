@@ -1,4 +1,10 @@
 
+## [0.0.9] - 2024-11-11
+
+### 🐛 Bug Fixes
+
+- *(actions)* More fix
+
 ## [0.0.8] - 2024-11-11
 
 ### 🐛 Bug Fixes
@@ -11,12 +17,6 @@
 
 - *(action)* Action was no good. Maybe better.
 
-## [0.0.6] - 2024-11-11
-
-### 🐛 Bug Fixes
-
-- *(action)* Eventually, helm chart will be stable
-
 
 
 ## [0.0.7] - 2024-11-11
@@ -130,5 +130,8 @@
 ### 🐛 Bug Fixes
 
 - *(actions)* Update github action
+
+
+ns)* Update github action
 
 
