@@ -24,7 +24,7 @@ jobs:
         uses: actions/checkout@v4
       - name: Generate new version
         id: action
-        uses: pier-oliviert/actions@341a18492538e4178b9a1314353720523980c4cd
+        uses: pier-oliviert/actions@5896bfc31eeb40963a6ff06dd71a62d548384d19
         with:
           args: /actions/index.ts create version
           auth_token: ${{ secrets.GH_API_TOKEN }}
@@ -45,7 +45,7 @@ jobs:
         with:
           fetch-depth: 0
       - name: Generate Changelog
-        uses: pier-oliviert/actions@341a18492538e4178b9a1314353720523980c4cd
+        uses: pier-oliviert/actions@5896bfc31eeb40963a6ff06dd71a62d548384d19
         id: action
         env:
           GIT_CLIFF__CHANGELOG__HEADER: ""
@@ -67,7 +67,7 @@ jobs:
         uses: actions/checkout@v4
       - name: Deploy Helm package
         id: action
-        uses: pier-oliviert/actions@341a18492538e4178b9a1314353720523980c4cd
+        uses: pier-oliviert/actions@5896bfc31eeb40963a6ff06dd71a62d548384d19
         with:
           args: /actions/index.ts create release
           auth_token: ${{ secrets.GH_API_TOKEN }}
@@ -89,7 +89,7 @@ jobs:
           ref: main
           fetch-depth: 0
       - name: Deploy Helm package
-        uses: pier-oliviert/actions@341a18492538e4178b9a1314353720523980c4cd
+        uses: pier-oliviert/actions@5896bfc31eeb40963a6ff06dd71a62d548384d19
         with:
           args: /actions/index.ts create helm
           auth_token: ${{ secrets.GH_API_TOKEN }}
