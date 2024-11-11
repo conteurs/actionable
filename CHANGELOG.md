@@ -1,4 +1,13 @@
 
+## [0.0.12] - 2024-11-11
+
+### 🐛 Bug Fixes
+
+- *(actions)* More fix
+- *(action)* Maybe this is it
+
+
+
 ## [0.0.11] - 2024-11-11
 
 ### 🐛 Bug Fixes
