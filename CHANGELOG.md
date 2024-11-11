@@ -1,16 +1,10 @@
 
-## [0.0.10] - 2024-11-11
+## [0.0.11] - 2024-11-11
 
 ### 🐛 Bug Fixes
 
 - *(actions)* More fix
 - *(action)* Maybe this is it
-
-## [0.0.8] - 2024-11-11
-
-### 🐛 Bug Fixes
-
-- *(actions)* More fix
 
 
 
@@ -143,6 +137,14 @@
 ## [0.0.2] - 2024-11-11
 
 ### 🐛 Bug Fixes
+
+- *(actions)* Update github action
+
+
+ns)* Update github action
+
+
+es
 
 - *(actions)* Update github action
 
