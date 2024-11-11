@@ -1,4 +1,19 @@
 
+## [0.0.10] - 2024-11-11
+
+### 🐛 Bug Fixes
+
+- *(actions)* More fix
+- *(action)* Maybe this is it
+
+## [0.0.8] - 2024-11-11
+
+### 🐛 Bug Fixes
+
+- *(actions)* More fix
+
+
+
 ## [0.0.9] - 2024-11-11
 
 ### 🐛 Bug Fixes
